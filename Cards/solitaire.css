@@ -1,0 +1,20 @@
+
+div#solitHead {
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    background-color: chocolate;
+}
+
+div#solitBody {
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    background-color: chocolate;
+}
+.cardBox {
+    height: 100px;
+    width: 60px;
+    background-color: cadetblue;
+    border: 3px solid black;
+}

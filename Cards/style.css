@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* banner */
+#topBanner {
+    height: 200px;
+    background-color: darkslategrey;
+}
+#title {
+    font-size: 5em;
+    color: cornsilk;
+}
+
+section#main {
+    height: 1000px;
+    background-color: chartreuse;
+}
+div#solitaire {
+    width: 400px;
+    height: 200px;
+}
+.gameTitle {
+    font-size: 2em;
+}

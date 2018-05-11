@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Start Screen */
+#header {
+  background-color: darkslategrey;
+  color: cornsilk;
+  font-size: 5em;
+  height: 150px;
+  text-align: center;
+  text-shadow: 4px 4px 4px black;
+}
+#header-text {
+  padding-top: 25px;
+}
+#subHeader {
+  align-items: center;
+  background-color: rgb(75, 109, 109);
+  border-top: double 3px cornsilk;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100px;
+  justify-content: space-evenly;
+}
+.subHeaderButtons {
+  background-color: rgb(121, 179, 179);
+  border-radius: 20px;
+  flex: auto;
+  font-size: 22px;
+  height: 60px;
+}
+
+.card {
+  height: 130px;
+  width: 100px;
+  background-image: url('./images/cardBack.png');
+  border-radius: 8px;
+  color: rgb(48, 48, 48);
+  font-size: 35px;
+  text-align: center;
+}
+#fH {
+  background-image: url('./images/plainHeart.png');
+}
+#fD {
+  background-image: url('./images/plainDiamond.png');
+}
+#fS {
+  background-image: url('./images/plainSpade.png');
+}
+#fC {
+  background-image: url('./images/plainClub.png');
+}
+div#solitHead {
+  align-items: center;
+  height: 160px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(118, 202, 33);
+}
+
+div#solitBody {
+  align-items: center;
+  height: 160px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(118, 202, 33);
+}
+/* End Start Screen*/
+
+/* banner */
+#topBanner {
+    height: 200px;
+    background-color: darkslategrey;
+}
+#title {
+    font-size: 5em;
+    color: cornsilk;
+}
+/* Button Styles */
+#startButton {
+    background-color: gainsboro;
+    border-radius: 10px;
+    color: rgb(48, 48, 48);
+    font-size: 20px;
+    height: 60px;
+    width: 100px;
+}
+#flipButton {
+    background-color: gainsboro;
+    border-radius: 10px;
+    color: rgb(48, 48, 48);
+    font-size: 20px;
+    height: 60px;
+    width: 100px;
+}
+section#main {
+    height: 1000px;
+    background-color: chartreuse;
+}
+div#solitaire {
+    width: 400px;
+    height: 200px;
+}
+.gameTitle {
+    font-size: 2em;
+}
+
+
+.cardBox {
+    height: 100px;
+    width: 60px;
+    background-color: wheat;
+    border: 3px solid black;
+    color: rgb(48, 48, 48);
+    font-size: 35px;
+    text-align: center;
+}
