@@ -1,25 +1,51 @@
+
+/* GLOBALS */
 * {
-    margin: 0;
-    padding: 0;
-}
-/* banner */
-#topBanner {
-    height: 200px;
-    background-color: darkslategrey;
-}
-#title {
-    font-size: 5em;
-    color: cornsilk;
+  height: auto;
+  margin: 0, auto;
+  padding: 0;
+  text-align: center;
 }
 
-section#main {
-    height: 1000px;
-    background-color: chartreuse;
+/* banner */
+#topBanner {
+  background-color: darkslategrey;
+  text-align: center;
 }
-div#solitaire {
-    width: 400px;
-    height: 200px;
+.menu {
+  background-color: darkslategrey;
 }
-.gameTitle {
-    font-size: 2em;
+button.make-deck {
+  border-radius: 4px;
+  font-size: 1.6rem;
+  height: 40px;
+  width: 80px;
 }
+#title {
+  color: cornsilk;
+  font-size: 5rem;
+}
+
+/* MAIN */
+main {
+  background-color: rgb(47, 156, 114);
+  height: 2000px;
+
+}
+.show-deck {
+  align-items: center;
+  background-color: cornsilk;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+}
+
+.show-deck-items {
+  background-color: rgb(180, 174, 174);
+  border-radius: 2px;
+  height: 30px;
+  margin: 5px;
+  width: 30px;
+}
+
